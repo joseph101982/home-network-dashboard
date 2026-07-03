@@ -1,40 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Home Network Dashboard</title>
 
 <link rel="stylesheet" href="style.css">
-
 <link rel="manifest" href="manifest.json">
 
 <meta name="theme-color" content="#0f172a">
-
-<link rel="apple-touch-icon" href="icons/app-icon.png">
-
 </head>
 
 <body>
 
 <header>
-
-<div class="title">
-
-🏠 Home Network
-
-</div>
-
-<div class="subtitle">
-
-QNAP TS-673A • ASUS ROG AX11000 Pro • Tailscale
-
-</div>
-
+    <div class="title">🏠 Home Network</div>
+    <div class="subtitle">
+        QNAP TS-673A • ASUS ROG AX11000 Pro • Tailscale
+    </div>
 </header>
 
 <main>
@@ -42,133 +26,81 @@ QNAP TS-673A • ASUS ROG AX11000 Pro • Tailscale
 <div class="cards">
 
 <a class="card router" href=" " target="_blank">
-
-< img src="icons/router.png">
-
+< img src="icons/router.png" alt="Router">
 <h3>Router</h3>
-
 <p>Main ASUS Router</p >
-
 </a >
 
 <a class="card https" href="https://192.168.4.1" target="_blank">
-
-< img src="icons/https.png">
-
+< img src="icons/https.png" alt="HTTPS">
 <h3>Router HTTPS</h3>
-
 <p>Secure Login</p >
-
 </a >
 
 <a class="card magicdns" href="https://router.tailnet.ts.net" target="_blank">
-
-< img src="icons/magicdns.png">
-
+< img src="icons/magicdns.png" alt="MagicDNS">
 <h3>MagicDNS</h3>
-
 <p>Tailscale Access</p >
-
 </a >
 
 <a class="card localrouter" href="http://router.asus.com" target="_blank">
-
-< img src="icons/localrouter.png">
-
+< img src="icons/localrouter.png" alt="Local Router">
 <h3>Local Router</h3>
-
 <p>router.asus.com</p >
-
 </a >
 
-<a class="card qnap" href="http://192.168.4.171:8080" target="_blank">
-
-< img src="icons/qnap673a.png">
-
+<a class="card qnap" href="http://192.168.4.171:5000" target="_blank">
+< img src="icons/qnap673a.png" alt="QNAP">
 <h3>QNAP TS-673A</h3>
-
 <p>NAS Dashboard</p >
-
 </a >
 
 <a class="card plex" href="http://192.168.4.171:32400/web" target="_blank">
-
-< img src="icons/plex.png">
-
+< img src="icons/plex.png" alt="Plex">
 <h3>Plex</h3>
-
 <p>Media Server</p >
-
 </a >
 
-<a class="card radarr" href=" " target="_blank">
-
-< img src="icons/radarr.png">
-
+<a class="card radarr" href="http://192.168.4.171:7878" target="_blank">
+< img src="icons/radarr.png" alt="Radarr">
 <h3>Radarr</h3>
-
 <p>Movies</p >
-
 </a >
 
 <a class="card sonarr" href="http://192.168.4.171:8989" target="_blank">
-
-< img src="icons/sonarr.png">
-
+< img src="icons/sonarr.png" alt="Sonarr">
 <h3>Sonarr</h3>
-
 <p>TV Shows</p >
-
 </a >
 
 <a class="card prowlarr" href="http://192.168.4.171:9696" target="_blank">
-
-< img src="icons/prowlarr.png">
-
+< img src="icons/prowlarr.png" alt="Prowlarr">
 <h3>Prowlarr</h3>
-
 <p>Indexer Manager</p >
-
 </a >
 
 <a class="card qbittorrent" href="http://192.168.4.171:8080" target="_blank">
-
-< img src="icons/qbittorrent.png">
-
+< img src="icons/qbittorrent.png" alt="qBittorrent">
 <h3>qBittorrent</h3>
-
 <p>Download Client</p >
-
 </a >
 
 <a class="card tailscale" href="https://login.tailscale.com/admin/machines" target="_blank">
-
-< img src="icons/tailscale.png">
-
+< img src="icons/tailscale.png" alt="Tailscale">
 <h3>Tailscale</h3>
-
 <p>Admin Console</p >
-
 </a >
 
-<a class="card tailscale" href="https://login.tailscale.com/admin/dns" target="_blank">
-
-< img src="icons/magicdns.png">
-
+<a class="card magicdns" href="https://login.tailscale.com/admin/dns" target="_blank">
+< img src="icons/magicdns.png" alt="MagicDNS">
 <h3>MagicDNS</h3>
-
 <p>DNS Settings</p >
-
 </a >
 
 <a class="card yacd" href="https://yacd.metacubex.one" target="_blank">
-
-< img src="icons/yacd.png">
-
+< img src="icons/yacd.png" alt="YACD">
 <h3>YACD</h3>
-
 <p>Mihomo Dashboard</p >
-
 </a >
 
 </div>
@@ -178,5 +110,4 @@ QNAP TS-673A • ASUS ROG AX11000 Pro • Tailscale
 <script src="script.js"></script>
 
 </body>
-
 </html>
